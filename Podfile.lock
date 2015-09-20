@@ -1,0 +1,10 @@
+PODS:
+  - NgKeyboardTracker (1.0.6)
+
+DEPENDENCIES:
+  - NgKeyboardTracker
+
+SPEC CHECKSUMS:
+  NgKeyboardTracker: 5b52c30c9880ce248b800f2e7dc9a67e44f05b8f
+
+COCOAPODS: 0.38.2

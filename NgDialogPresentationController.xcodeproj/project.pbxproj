@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33D55697E1E739AA9816A20 /* libPods-NgDialogPresentationController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A738D257F274973025610744 /* libPods-NgDialogPresentationController.a */; };
+		DC9E084D1BAEB17D00719C56 /* NgDialogPresentationController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DC9E084C1BAEB17D00719C56 /* NgDialogPresentationController.h */; };
+		DC9E084F1BAEB17D00719C56 /* NgDialogPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9E084E1BAEB17D00719C56 /* NgDialogPresentationController.m */; };
+		DC9E08591BAEB1B600719C56 /* NgDialogTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9E08561BAEB1B600719C56 /* NgDialogTransitionDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		DC9E085A1BAEB1B600719C56 /* NgDialogAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9E08581BAEB1B600719C56 /* NgDialogAnimationController.m */; settings = {ASSET_TAGS = (); }; };
+		DC9E08631BAEB1DD00719C56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9E08621BAEB1DD00719C56 /* main.m */; };
+		DC9E08661BAEB1DD00719C56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9E08651BAEB1DD00719C56 /* AppDelegate.m */; };
+		DC9E08691BAEB1DD00719C56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9E08681BAEB1DD00719C56 /* ViewController.m */; };
+		DC9E086E1BAEB1DD00719C56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9E086D1BAEB1DD00719C56 /* Assets.xcassets */; };
+		DC9E08711BAEB1DD00719C56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9E086F1BAEB1DD00719C56 /* LaunchScreen.storyboard */; };
+		DC9E08781BAEB25300719C56 /* TextFieldDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9E08771BAEB25300719C56 /* TextFieldDialogViewController.m */; settings = {ASSET_TAGS = (); }; };
+		DC9E087B1BAEB45400719C56 /* libNgDialogPresentationController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9E08491BAEB17D00719C56 /* libNgDialogPresentationController.a */; };
+		DC9E087D1BAEB67800719C56 /* NgDialogPresentationController.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DC9E087C1BAEB67800719C56 /* NgDialogPresentationController.podspec */; settings = {ASSET_TAGS = (); }; };
+		DC9E08831BAEC42600719C56 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DC9E08821BAEC42600719C56 /* README.md */; settings = {ASSET_TAGS = (); }; };
+		DDF7727D38A5F810FB8A35A0 /* libPods-NgDialogPresentationControllerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B507C7FD763BEEDA76A18E /* libPods-NgDialogPresentationControllerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC9E08791BAEB40E00719C56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC9E08411BAEB17D00719C56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC9E08481BAEB17D00719C56;
+			remoteInfo = NgDialogPresentationController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC9E08471BAEB17D00719C56 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DC9E084D1BAEB17D00719C56 /* NgDialogPresentationController.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		59B507C7FD763BEEDA76A18E /* libPods-NgDialogPresentationControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NgDialogPresentationControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		740A92C60FE8EC34F8D72F37 /* Pods-NgDialogPresentationControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NgDialogPresentationControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NgDialogPresentationControllerDemo/Pods-NgDialogPresentationControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7448F99C724AD9607352B9F0 /* Pods-NgDialogPresentationController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NgDialogPresentationController.release.xcconfig"; path = "Pods/Target Support Files/Pods-NgDialogPresentationController/Pods-NgDialogPresentationController.release.xcconfig"; sourceTree = "<group>"; };
+		A738D257F274973025610744 /* libPods-NgDialogPresentationController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NgDialogPresentationController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9E08491BAEB17D00719C56 /* libNgDialogPresentationController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNgDialogPresentationController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9E084C1BAEB17D00719C56 /* NgDialogPresentationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NgDialogPresentationController.h; sourceTree = "<group>"; };
+		DC9E084E1BAEB17D00719C56 /* NgDialogPresentationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NgDialogPresentationController.m; sourceTree = "<group>"; };
+		DC9E08551BAEB1B600719C56 /* NgDialogTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NgDialogTransitionDelegate.h; sourceTree = "<group>"; };
+		DC9E08561BAEB1B600719C56 /* NgDialogTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NgDialogTransitionDelegate.m; sourceTree = "<group>"; };
+		DC9E08571BAEB1B600719C56 /* NgDialogAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NgDialogAnimationController.h; sourceTree = "<group>"; };
+		DC9E08581BAEB1B600719C56 /* NgDialogAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NgDialogAnimationController.m; sourceTree = "<group>"; };
+		DC9E085F1BAEB1DD00719C56 /* NgDialogPresentationControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NgDialogPresentationControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9E08621BAEB1DD00719C56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC9E08641BAEB1DD00719C56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC9E08651BAEB1DD00719C56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC9E08671BAEB1DD00719C56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC9E08681BAEB1DD00719C56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC9E086D1BAEB1DD00719C56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC9E08701BAEB1DD00719C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC9E08721BAEB1DD00719C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9E08761BAEB25300719C56 /* TextFieldDialogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldDialogViewController.h; sourceTree = "<group>"; };
+		DC9E08771BAEB25300719C56 /* TextFieldDialogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldDialogViewController.m; sourceTree = "<group>"; };
+		DC9E087C1BAEB67800719C56 /* NgDialogPresentationController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NgDialogPresentationController.podspec; sourceTree = "<group>"; };
+		DC9E08811BAEBBBD00719C56 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		DC9E08821BAEC42600719C56 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EA36FBBAAE050D5C5BA66CCE /* Pods-NgDialogPresentationController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NgDialogPresentationController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NgDialogPresentationController/Pods-NgDialogPresentationController.debug.xcconfig"; sourceTree = "<group>"; };
+		F947BFA5DFEC92164B5C5CFD /* Pods-NgDialogPresentationControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NgDialogPresentationControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NgDialogPresentationControllerDemo/Pods-NgDialogPresentationControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC9E08461BAEB17D00719C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33D55697E1E739AA9816A20 /* libPods-NgDialogPresentationController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9E085C1BAEB1DD00719C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9E087B1BAEB45400719C56 /* libNgDialogPresentationController.a in Frameworks */,
+				DDF7727D38A5F810FB8A35A0 /* libPods-NgDialogPresentationControllerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F8F492C7658AAEA7852E361 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A738D257F274973025610744 /* libPods-NgDialogPresentationController.a */,
+				59B507C7FD763BEEDA76A18E /* libPods-NgDialogPresentationControllerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B16188E5F92057228E725DFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA36FBBAAE050D5C5BA66CCE /* Pods-NgDialogPresentationController.debug.xcconfig */,
+				7448F99C724AD9607352B9F0 /* Pods-NgDialogPresentationController.release.xcconfig */,
+				740A92C60FE8EC34F8D72F37 /* Pods-NgDialogPresentationControllerDemo.debug.xcconfig */,
+				F947BFA5DFEC92164B5C5CFD /* Pods-NgDialogPresentationControllerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC9E08401BAEB17D00719C56 = {
+			isa = PBXGroup;
+			children = (
+				DC9E08811BAEBBBD00719C56 /* Podfile */,
+				DC9E087C1BAEB67800719C56 /* NgDialogPresentationController.podspec */,
+				DC9E08821BAEC42600719C56 /* README.md */,
+				DC9E084B1BAEB17D00719C56 /* NgDialogPresentationController */,
+				DC9E08601BAEB1DD00719C56 /* NgDialogPresentationControllerDemo */,
+				DC9E084A1BAEB17D00719C56 /* Products */,
+				B16188E5F92057228E725DFA /* Pods */,
+				5F8F492C7658AAEA7852E361 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC9E084A1BAEB17D00719C56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC9E08491BAEB17D00719C56 /* libNgDialogPresentationController.a */,
+				DC9E085F1BAEB1DD00719C56 /* NgDialogPresentationControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC9E084B1BAEB17D00719C56 /* NgDialogPresentationController */ = {
+			isa = PBXGroup;
+			children = (
+				DC9E08551BAEB1B600719C56 /* NgDialogTransitionDelegate.h */,
+				DC9E08561BAEB1B600719C56 /* NgDialogTransitionDelegate.m */,
+				DC9E08571BAEB1B600719C56 /* NgDialogAnimationController.h */,
+				DC9E08581BAEB1B600719C56 /* NgDialogAnimationController.m */,
+				DC9E084C1BAEB17D00719C56 /* NgDialogPresentationController.h */,
+				DC9E084E1BAEB17D00719C56 /* NgDialogPresentationController.m */,
+			);
+			path = NgDialogPresentationController;
+			sourceTree = "<group>";
+		};
+		DC9E08601BAEB1DD00719C56 /* NgDialogPresentationControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DC9E08641BAEB1DD00719C56 /* AppDelegate.h */,
+				DC9E08651BAEB1DD00719C56 /* AppDelegate.m */,
+				DC9E08671BAEB1DD00719C56 /* ViewController.h */,
+				DC9E08681BAEB1DD00719C56 /* ViewController.m */,
+				DC9E08761BAEB25300719C56 /* TextFieldDialogViewController.h */,
+				DC9E08771BAEB25300719C56 /* TextFieldDialogViewController.m */,
+				DC9E086D1BAEB1DD00719C56 /* Assets.xcassets */,
+				DC9E086F1BAEB1DD00719C56 /* LaunchScreen.storyboard */,
+				DC9E08721BAEB1DD00719C56 /* Info.plist */,
+				DC9E08611BAEB1DD00719C56 /* Supporting Files */,
+			);
+			path = NgDialogPresentationControllerDemo;
+			sourceTree = "<group>";
+		};
+		DC9E08611BAEB1DD00719C56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC9E08621BAEB1DD00719C56 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC9E08481BAEB17D00719C56 /* NgDialogPresentationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9E08521BAEB17D00719C56 /* Build configuration list for PBXNativeTarget "NgDialogPresentationController" */;
+			buildPhases = (
+				6517EF08E4A75EEABD082FCB /* Check Pods Manifest.lock */,
+				DC9E08451BAEB17D00719C56 /* Sources */,
+				DC9E08461BAEB17D00719C56 /* Frameworks */,
+				DC9E08471BAEB17D00719C56 /* CopyFiles */,
+				81E2F8CB667BF585D2EE905D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NgDialogPresentationController;
+			productName = NgDialogPresentationController;
+			productReference = DC9E08491BAEB17D00719C56 /* libNgDialogPresentationController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DC9E085E1BAEB1DD00719C56 /* NgDialogPresentationControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9E08731BAEB1DD00719C56 /* Build configuration list for PBXNativeTarget "NgDialogPresentationControllerDemo" */;
+			buildPhases = (
+				CE7CEB7A06049A2CADF639E3 /* Check Pods Manifest.lock */,
+				DC9E085B1BAEB1DD00719C56 /* Sources */,
+				DC9E085C1BAEB1DD00719C56 /* Frameworks */,
+				DC9E085D1BAEB1DD00719C56 /* Resources */,
+				88B3F060BCA9098714231DB4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC9E087A1BAEB40E00719C56 /* PBXTargetDependency */,
+			);
+			name = NgDialogPresentationControllerDemo;
+			productName = NgDialogPresentationControllerDemo;
+			productReference = DC9E085F1BAEB1DD00719C56 /* NgDialogPresentationControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC9E08411BAEB17D00719C56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = BlockThirty;
+				TargetAttributes = {
+					DC9E08481BAEB17D00719C56 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DC9E085E1BAEB1DD00719C56 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = DC9E08441BAEB17D00719C56 /* Build configuration list for PBXProject "NgDialogPresentationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC9E08401BAEB17D00719C56;
+			productRefGroup = DC9E084A1BAEB17D00719C56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC9E08481BAEB17D00719C56 /* NgDialogPresentationController */,
+				DC9E085E1BAEB1DD00719C56 /* NgDialogPresentationControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC9E085D1BAEB1DD00719C56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9E087D1BAEB67800719C56 /* NgDialogPresentationController.podspec in Resources */,
+				DC9E08711BAEB1DD00719C56 /* LaunchScreen.storyboard in Resources */,
+				DC9E086E1BAEB1DD00719C56 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6517EF08E4A75EEABD082FCB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81E2F8CB667BF585D2EE905D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NgDialogPresentationController/Pods-NgDialogPresentationController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88B3F060BCA9098714231DB4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NgDialogPresentationControllerDemo/Pods-NgDialogPresentationControllerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE7CEB7A06049A2CADF639E3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC9E08451BAEB17D00719C56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9E08591BAEB1B600719C56 /* NgDialogTransitionDelegate.m in Sources */,
+				DC9E084F1BAEB17D00719C56 /* NgDialogPresentationController.m in Sources */,
+				DC9E08831BAEC42600719C56 /* README.md in Sources */,
+				DC9E085A1BAEB1B600719C56 /* NgDialogAnimationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9E085B1BAEB1DD00719C56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9E08781BAEB25300719C56 /* TextFieldDialogViewController.m in Sources */,
+				DC9E08691BAEB1DD00719C56 /* ViewController.m in Sources */,
+				DC9E08661BAEB1DD00719C56 /* AppDelegate.m in Sources */,
+				DC9E08631BAEB1DD00719C56 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC9E087A1BAEB40E00719C56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC9E08481BAEB17D00719C56 /* NgDialogPresentationController */;
+			targetProxy = DC9E08791BAEB40E00719C56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC9E086F1BAEB1DD00719C56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC9E08701BAEB1DD00719C56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC9E08501BAEB17D00719C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC9E08511BAEB17D00719C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC9E08531BAEB17D00719C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA36FBBAAE050D5C5BA66CCE /* Pods-NgDialogPresentationController.debug.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DC9E08541BAEB17D00719C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7448F99C724AD9607352B9F0 /* Pods-NgDialogPresentationController.release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DC9E08741BAEB1DD00719C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740A92C60FE8EC34F8D72F37 /* Pods-NgDialogPresentationControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = NgDialogPresentationControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockthirty.NgDialogPresentationControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC9E08751BAEB1DD00719C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F947BFA5DFEC92164B5C5CFD /* Pods-NgDialogPresentationControllerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = NgDialogPresentationControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockthirty.NgDialogPresentationControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC9E08441BAEB17D00719C56 /* Build configuration list for PBXProject "NgDialogPresentationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9E08501BAEB17D00719C56 /* Debug */,
+				DC9E08511BAEB17D00719C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9E08521BAEB17D00719C56 /* Build configuration list for PBXNativeTarget "NgDialogPresentationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9E08531BAEB17D00719C56 /* Debug */,
+				DC9E08541BAEB17D00719C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9E08731BAEB1DD00719C56 /* Build configuration list for PBXNativeTarget "NgDialogPresentationControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9E08741BAEB1DD00719C56 /* Debug */,
+				DC9E08751BAEB1DD00719C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC9E08411BAEB17D00719C56 /* Project object */;
+}
