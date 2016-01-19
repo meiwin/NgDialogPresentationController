@@ -10,7 +10,7 @@
 #import <NgKeyboardTracker/NgKeyboardTracker.h>
 
 #pragma mark -
-@interface DialogTransitionCoordinator : NSObject <UIViewControllerTransitionCoordinator>
+@interface NgDialogTransitionCoordinator : NSObject <UIViewControllerTransitionCoordinator>
 @property (nonatomic, strong, readonly) NSMutableArray * animationBlocks;
 @property (nonatomic, strong, readonly) NSMutableArray * completionBlocks;
 @property (nonatomic, weak, readonly) NgDialogPresentationController * presentationController;
@@ -18,13 +18,13 @@
 - (instancetype)init __unavailable;
 @end
 
-@interface DialogTransitionCoordinator ()
+@interface NgDialogTransitionCoordinator ()
 @property (nonatomic, strong) NSMutableArray * animationBlocks;
 @property (nonatomic, strong) NSMutableArray * completionBlocks;
 @property (nonatomic) BOOL completed;
 @end
 
-@implementation DialogTransitionCoordinator
+@implementation NgDialogTransitionCoordinator
 
 - (instancetype)initWithDialogPresentationController:(NgDialogPresentationController *)pc {
   self = [super init];
@@ -211,7 +211,7 @@
   CGRect frame = [self frameOfPresentedViewInContainerView];
   if (!CGSizeEqualToSize(frame.size, self.previousContentSize)) {
    
-    DialogTransitionCoordinator * tc = [[DialogTransitionCoordinator alloc] initWithDialogPresentationController:self];
+    NgDialogTransitionCoordinator * tc = [[NgDialogTransitionCoordinator alloc] initWithDialogPresentationController:self];
     [[self presentedViewController] viewWillTransitionToSize:frame.size withTransitionCoordinator:tc];
     
     void (^performLayout)() = ^{
