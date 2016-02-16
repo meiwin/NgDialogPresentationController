@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name         = 'NgDialogPresentationController'
-spec.version      = '1.1'
+spec.version      = '1.1.1'
 spec.summary      = 'Custom UIPresentationController for presenting view controller with dialog style.'
 spec.homepage     = 'https://github.com/meiwin/NgDialogPresentationController'
 spec.author       = { 'Meiwin Fu' => 'meiwin@blockthirty.com' }
